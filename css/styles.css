@@ -357,7 +357,7 @@ body {
   padding-left: 40px;
   padding-right: 40px;
 }
-.img-wrapper:hover .overlay-text {
+.portfolio-section-list-item:hover .overlay-text {
   transform: translateY(0%);
 }
 /* footer */
