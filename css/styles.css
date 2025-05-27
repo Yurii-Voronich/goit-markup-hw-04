@@ -406,3 +406,10 @@ footer .social-list-icons-item-link:hover,
 footer .social-list-icons-item-link:focus {
   background-color: #31d0aa;
 }
+footer .social-list-icons-item {
+  width: 24px;
+  height: 24px;
+}
+footer .social-link-logo {
+  fill: #f4f4fd;
+}
