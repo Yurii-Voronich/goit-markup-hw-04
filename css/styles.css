@@ -369,10 +369,7 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.footer-logo-wrapper {
-  display: flex;
-  flex-direction: column;
-}
+
 .page-footer-logo {
   font-family: var(--logo-font);
   font-weight: 700;
@@ -387,14 +384,25 @@ body {
 .page-footer-studio {
   color: #f4f4fd;
 }
-.footer-container {
+footer .container {
   display: flex;
-  column-gap: 120px;
-  align-items: flex-start;
+  align-items: baseline;
 }
-.footer-title {
+.logo-wrapper {
+  margin-right: 120px;
+}
+footer .social-list-icons {
+  gap: 16px;
+}
+.title-footer-text {
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+footer .social-list-icons-item-link:hover,
+footer .social-list-icons-item-link:focus {
+  background-color: #31d0aa;
 }
