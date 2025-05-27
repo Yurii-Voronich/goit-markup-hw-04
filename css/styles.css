@@ -369,7 +369,10 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
+.footer-logo-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 .page-footer-logo {
   font-family: var(--logo-font);
   font-weight: 700;
@@ -383,4 +386,15 @@ body {
 }
 .page-footer-studio {
   color: #f4f4fd;
+}
+.footer-container {
+  display: flex;
+  column-gap: 120px;
+  align-items: flex-start;
+}
+.footer-title {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-bottom: 16px;
 }
